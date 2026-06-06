@@ -8,4 +8,4 @@ publish = false
 beta = { path = "../beta" }
 
 [features]
-beta-foo-method = ["beta/foo-method"]
+correct-feature-name = ["beta/wrong-feature-name"]

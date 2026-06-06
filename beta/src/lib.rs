@@ -1,6 +1,6 @@
 pub struct S;
 
 impl S {
-    #[cfg(feature = "foo-method")]
+    #[cfg(feature = "wrong-feature-name")]
     pub fn foo() {}
 }
